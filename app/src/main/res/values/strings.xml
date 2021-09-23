@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">FindUrWay</string>
+    <string name="title_activity_contact_us">ContactUs</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main">FindUrWay</string>
+    <string name="collapsed">collapsed: %s</string>
+    <string name="expanded">expanded: %s</string>
+    <string name="metrohelp">The metro module is divided into 6 sections. \n \n
+a.	Metro Route: This module help us to search and find the list of route between two stations. All we need to do is to fill the start and end location to get the list of metro route. \n
+b.	Fare: This section help user to know the fare of metro between any two metro stations. Fill the given text box of start and end name of metro stations and the two type of price list will appear in the same screen comprises of Metro card and Token fare respectively. \n
+c.	Gates and Direction: People usually get confused at metro stations while existing and entering of the metro station, that which path or gate they should take to get the right way. O well! Don’t get confuse, this module will help you out with this problem you just need to enter the name of metro station and you will get the list of details which show the gate number with the name of existing place.\n
+d.	Recharge card: Want to recharge your metro card online? This module navigate you to the site where you can recharge your metro card by just following the steps of website just in one click.\n
+e.	Metro map: Are you too weary to type? Or Are you familiar with map and love to navigate your direction and name of metro with the help of map? Then you will love this feature of app, this will help you to find the detail of metro just by seeing.\n \n
+f.	Upcoming metro: Want to check is your location will get metro route or line in nearby future? This module will give you the map which shows the upcoming metros.\n
+</string>
+    <string name="autohelp">This module is divided into 2 section: \n \n
+a.	Route and distance between two destinations: Want to travel with auto and don’t know the route and distance? Don’t get anxious this feature will guide you in your way and show you the cross by areas between that two destinations with total distance in kilometer. \n
+b.	Fare: Feel that you get cheated by auto driver? Well!! Use your time and money wisely, this section give you the list of fare according to distance your travel. \n\n
+</string>
+    <string name="bushelp">This module is divided into 4 section: \n \n
+a.	Route of bus: Want to know the areas you will cross by during your journey? This is easy with this features, just enter the start and end location in the given field and the list will show you the name of all areas you will pass by during your journey. \n
+b.	Buses that go from particular station: Don’t know the timing and bus no. of your bus? Don’t get panic just enter the name of bus stop and you will get the list of buses with their departure time from that bus stop. \n
+c.	Fare: Don’t waste your money, check before you book your bus. This section help you to get the pricing of ticket of your destination, just enter the start and end location and you will get the pricing details. \n
+d.	Buses that run between two station: Just enter the start and end location and you will get the list of running/available buses in that route only.   \n \n
+</string>
+    <string name="forumhelp">
+        This is a medium where ideas and views on a particular issue can be exchanged.
+    </string>
+
+    <string name="pickithelp">
+        This section helps user to mark the current location or near by location or even mark a searched location with some note .
+    </string>
+    <string name="faqhelp">
+        All the frequently asked questions related to metro,bus or auto are answered in this part
+    </string>
+    <string name="contactushelp">
+        This helps users to contact the developers for any queries or details.
+    </string>
+    <string name="feedbackhelp">
+        The feedback module helps users to send feedback after using the app.
+    </string>
+    <string name="myaccounthelp">
+        This module helps users to view its profile details and reset its password. In addition to this the users can also delete their account if they no longer want to be a part of FIND YOUR WAY.
+    </string>
+    <string name="currentlocationhelp">This feature help you to get your current location on your device. Just click the button and it will show you your current location.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_current_location">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

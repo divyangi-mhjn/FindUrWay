@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.hp.major.FindUrWay.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:id="@+id/rv1">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="8dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rv2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rv1"
+        android:layout_marginTop="22dp">
+
+        <ImageButton
+            android:id="@+id/metro"
+            android:layout_width="100dp"
+
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/auto"
+            android:layout_alignTop="@+id/bus"
+            android:layout_gravity="left"
+            android:background="@drawable/circles_clor"
+            android:elevation="5dp"
+            android:paddingBottom="6dp"
+            android:scaleType="fitXY"
+            android:shadowColor="#faf0a6"
+            android:src="@drawable/metro"
+            android:tint="@color/colorPrimary"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/metro1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/metro"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:text="METRO"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/bus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/metro"
+            android:background="@drawable/circles_clor"
+            android:elevation="5dp"
+            android:paddingBottom="6dp"
+            android:scaleType="centerInside"
+            android:shadowColor="#faf0a6"
+            android:src="@drawable/bus"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/bus1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/metro"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/metro1"
+            android:text="BUS"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/auto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/metro"
+            android:layout_gravity="left"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/circles_clor"
+            android:elevation="5dp"
+            android:paddingBottom="6dp"
+            android:scaleType="centerInside"
+            android:shadowColor="#faf0a6"
+            android:src="@drawable/auto"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/auto1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/auto"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:text="AUTO"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/walk"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/bus"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="60dp"
+            android:padding="22dp"
+            android:layout_toRightOf="@+id/auto"
+            android:background="@drawable/circles_clor"
+            android:elevation="5dp"
+            android:paddingBottom="6dp"
+            android:scaleType="centerInside"
+            android:shadowColor="#faf0a6"
+            android:src="@drawable/pick"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/walk1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/walk"
+            android:layout_marginLeft="71dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/metro1"
+            android:text="PICK IT"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/SliderDots"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="420dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/rv1"
+       android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+</RelativeLayout>

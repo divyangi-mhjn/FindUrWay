@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hp.major.FindUrWay.BusRoute1Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tt1"
+        android:background="@android:color/white"
+
+        >
+    <TableRow
+
+        android:background="@drawable/table_row_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+        android:layout_marginRight="20dp"
+
+        >
+        <TextView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="S.no"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:background="@drawable/table_cell_bg"
+
+            android:gravity="center_horizontal|center_vertical"
+
+            />
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:text="Destination"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="KMs"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="Fare"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Platform No"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+    </TableRow>
+
+
+    <TableRow
+
+        android:background="@drawable/table_row_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+        android:layout_marginRight="20dp"
+
+        >
+        <TextView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="1"
+            android:background="@drawable/table_cell_bg"
+
+            android:gravity="center_horizontal|center_vertical"
+
+            />
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Agra"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="196"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="117"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:text="52"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+    </TableRow>
+
+    <TableRow
+
+        android:background="@drawable/table_row_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+        android:layout_marginRight="20dp"
+
+        >
+        <TextView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="2"
+            android:background="@drawable/table_cell_bg"
+
+            android:gravity="center_horizontal|center_vertical"
+
+            />
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Ajmer"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="412"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="236"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:text="45,46"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+    </TableRow>
+
+    <TableRow
+
+        android:background="@drawable/table_row_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+        android:layout_marginRight="20dp"
+
+        >
+        <TextView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="3"
+            android:background="@drawable/table_cell_bg"
+
+            android:gravity="center_horizontal|center_vertical"
+
+            />
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Aligarh"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="138"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="81"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:text="29,30"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+    </TableRow>
+
+    <TableRow
+
+        android:background="@drawable/table_row_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+        android:layout_marginRight="20dp"
+
+        >
+        <TextView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="4"
+            android:background="@drawable/table_cell_bg"
+
+            android:gravity="center_horizontal|center_vertical"
+
+            />
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Balaji"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="236"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="158"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:text="24,25"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+    </TableRow>
+
+    <TableRow
+
+        android:background="@drawable/table_row_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+        android:layout_marginRight="20dp"
+
+        >
+        <TextView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="5"
+            android:background="@drawable/table_cell_bg"
+
+            android:gravity="center_horizontal|center_vertical"
+
+            />
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Jaipur"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="280"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="160"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:text="45,46"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+    </TableRow>
+    </TableLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

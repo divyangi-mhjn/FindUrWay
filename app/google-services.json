@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1020534715300",
+    "firebase_url": "https://findurway-939cf.firebaseio.com",
+    "project_id": "findurway-939cf",
+    "storage_bucket": "findurway-939cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020534715300:android:fe7ad339bf2db859",
+        "android_client_info": {
+          "package_name": "com.hp.major.FindUrWay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020534715300-7unma6k5bo3mkfp9ubka07heb0gs5jeh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hp.major.FindUrWay",
+            "certificate_hash": "cbf4dbfa11daca8db607c3134532242d65980f29"
+          }
+        },
+        {
+          "client_id": "1020534715300-hqp124sv34ifa24bmjfomo5nviln7d15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACKami0P6E15CFT9hWJPwWKx7MBBKtrhU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020534715300-hqp124sv34ifa24bmjfomo5nviln7d15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

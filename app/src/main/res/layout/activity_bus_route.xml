@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hp.major.FindUrWay.BusRouteActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tt1"
+        android:background="@android:color/white"
+
+        >
+    <TableRow
+
+        android:background="@drawable/table_row_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+        android:layout_marginRight="20dp"
+
+        >
+        <TextView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="S.no"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:background="@drawable/table_cell_bg"
+
+            android:gravity="center_horizontal|center_vertical"
+
+            />
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:text="Destination"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="KMs"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="Fare"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Platform No"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:background="@drawable/table_cell_bg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+    </TableRow>
+
+
+        <TableRow
+
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="1"
+                android:background="@drawable/table_cell_bg"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Aligarh"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="139"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="79"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="77"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="2"
+                android:background="@drawable/table_cell_bg"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Amora"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="141"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="83"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="97"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="3"
+                android:background="@drawable/table_cell_bg"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Anoopshaheer"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="119"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="69"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="75"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="4"
+                android:background="@drawable/table_cell_bg"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Babrala"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="154"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="88"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="118"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="5"
+                android:background="@drawable/table_cell_bg"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Dhampur"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="186"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="106"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="129"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="6"
+                android:background="@drawable/table_cell_bg"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="ETah"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="210"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="117"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="78"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="7"
+                android:background="@drawable/table_cell_bg"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="ETAWA"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="327"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="174"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="90"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="8"
+                android:background="@drawable/table_cell_bg"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Farukhabad"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="315"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="169"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="79"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginRight="20dp"
+
+            >
+
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="36dp"
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+
+                android:text="9"
+
+                />
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Hardoi"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="385"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="204"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="92"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="10"
+                android:background="@drawable/table_cell_bg"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Muradabad"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="164"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="95"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="97"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="11"
+                android:background="@drawable/table_cell_bg"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Nanital"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="312"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="184"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="134"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="12"
+                android:background="@drawable/table_cell_bg"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Ram Nagar"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="260"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="146"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="136,137"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="13"
+                android:background="@drawable/table_cell_bg"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Rishikesh"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="239"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="135"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="33,34"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="14"
+                android:background="@drawable/table_cell_bg"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Ruperia"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="569"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="299"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="102"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="15"
+                android:background="@drawable/table_cell_bg"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Sahaswan"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="193"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="107"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="177"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="16"
+                android:background="@drawable/table_cell_bg"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Sambhal"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="162"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="94"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="116"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="17"
+                android:background="@drawable/table_cell_bg"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Shanti Kunj"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="214"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="122"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="37,38"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:background="@drawable/table_row_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="18"
+                android:background="@drawable/table_cell_bg"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Tanakpur"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="341"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="189"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="130,131"
+
+                android:background="@drawable/table_cell_bg"
+                android:gravity="center_horizontal|center_vertical"
+                />
+        </TableRow>
+
+
+    </TableLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

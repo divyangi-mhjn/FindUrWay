@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_place_notes_m"
+        android:orderInCategory="100"
+        android:title="Add place notes"/>
+
+    <item
+        android:id="@+id/view_place_notes_m"
+        android:orderInCategory="100"
+        android:title="View Notes"/>
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hp.major.FindUrWay.ChatActivity"
+    android:background="@drawable/paintu">
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_send_black_24dp"
+        android:id="@+id/fab"
+        android:backgroundTint="@color/colorPrimary"
+        android:tint="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:fabSize="mini" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/ii"
+        app:srcCompat="@drawable/ff"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Input"
+            android:layout_toLeftOf="@+id/fab"
+            android:layout_margin="5dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/outline"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/input"
+            />
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:layout_margin="5dp"
+        android:layout_above="@id/fab"
+        android:layout_below="@+id/ii"
+        android:dividerHeight="16dp"
+        android:divider="@android:color/transparent"
+        android:id="@+id/list_of_messages"
+        android:layout_marginBottom="16dp"/>
+
+</RelativeLayout>
